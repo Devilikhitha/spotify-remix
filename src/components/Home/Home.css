@@ -1,0 +1,19 @@
+/* /* body .bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+}
+
+body .bg h1 {
+  color: black;
+} */
+
+.bg {
+  background-color: black;
+  color: white;
+  margin: 0px;
+}

@@ -1,0 +1,42 @@
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.music {
+  margin-bottom: auto;
+}
+
+.logout {
+  display: flex; /* Display logout image and button side by side */
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 30px;
+}
+
+.logout-image {
+  width: 50px;
+  height: 50px;
+}
+
+.logout-btn {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  color: white; /* Set text color */
+  margin-left: 10px; /* Add margin for spacing between image and button */
+}
+
+h1 {
+  margin-left: 120px;
+}
